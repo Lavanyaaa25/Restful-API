@@ -1,0 +1,11 @@
+client request to server, middle ware is in between the request is processed by middleware
+which performs operations. Middleware validates qand proceeds further
+
+A function/plugin which runs on each request and response
+req,res,next (next calls next middleware)
+
+middleware performs the following functions:
+Execute any code
+Make any changes to the request and the response objects
+End the request-response cycle
+call the next middleware function in the stack

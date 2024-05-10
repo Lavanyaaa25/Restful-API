@@ -1,0 +1,12 @@
+http headers are an important part of the API request and response as they represent the meta data associated with the API request and response.
+Headers carry info for the request and response body
+
+HTTP CODES:
+100-199:Informational response
+200-299:Successful response
+300-399:Redirectional response
+400-499:Client error response
+500-599:Server error response
+
+201-created
+202-accepted
